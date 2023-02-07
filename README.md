@@ -1,6 +1,4 @@
-# Tarjeta de crédito válida
-
-Card-validation.
+#Card-validation.
 
 ¡Confort de Bebe!
 

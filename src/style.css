@@ -1,39 +1,44 @@
-#box-result{
+#box-result {
     display: none;
 }
-#box-mensaje{
+
+#box-mensaje {
     display: block;
-    margin-left : 250px;
-    margin-right : 250px;
-    padding : 0px;
-    color:hsl(271 52%, 50%);
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 0px;
+    color: hsl(271 52%, 50%);
     background-color: solid whitesmoke;
     border: 10px solid whitesmoke;
+    text-align: center;
 }
 
-#box-valid{
-    margin-left : 250px;
-    margin-right : 250px;
-    padding : 0px;
-    color:hsl(271 52%, 50%);
-    background-color:soli whitesmoke;
+#box-valid {
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 0px;
+    color: hsl(271 52%, 50%);
+    background-color: solid whitesmoke;
     border: 10px solid whitesmoke;
+    text-align: center;
 }
-#result-michi{
-    margin-left : 250px;
-    margin-right : 250px;
-    padding : 0px;
-    color:hsl(271 52%, 50%);
-    background-color:rgb(229, 169, 246);
+
+#result-michi {
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 0px;
+    color: hsl(271 52%, 50%);
+    background-color: solid whitesmoke;
     border: 10px solid whitesmoke;
+    text-align: center;
 }
 
-#mensajeUno{
-    margin-left : 350px;
-    margin-right : 350px;
+#mensajeUno {
+    margin-left: 350px;
+    margin-right: 350px;
 }
 
-html{
+html {
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -42,17 +47,17 @@ html{
     align-items: center;
 }
 
-body{
+body {
     background-image: url('https://th.bing.com/th/id/OIP.kFvWA-ISNl_3umjVlZg3jwHaFa?pid=ImgDet&rs=1');
     min-height: 100%;
 }
 
-body{
-    margin-left : auto;
-    margin-right : auto;
-    padding : 0px;
-    color:hsl(271, 52%, 50%);
-    background-color:rgb(229, 169, 246);
+body {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    color: hsl(271, 52%, 50%);
+    background-color: rgb(229, 169, 246);
     border: 10px solid whitesmoke
 }
 
@@ -63,11 +68,12 @@ input[type=number]::-webkit-outer-spin-button {
     margin: 0;
 }
 
-header{
-    color:hsl(271, 52%, 50%);
-    background-color: rgb(247, 244, 247);
+header {
+    color: hsl(271, 52%, 50%);
+    background-color: solid whitesmoke;
     border: 50px solid rgb(247, 244, 247);
 }
+
 img#tiendaBb {
     /*rellenar fonde*/
     min-height: 100%;
@@ -80,6 +86,7 @@ img#tiendaBb {
     top: 0;
     left: 0;*/
 }
-footer{
+
+footer {
     text-align: center;
 }
