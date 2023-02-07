@@ -1,14 +1,48 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div display:block>
+ <header>
+     <section id="box-mensaje">
+      <h1>¡Confort de Bebe!</h1>
+    </section>
+  </header>
+  <main>
+    <section id="contenedorCentrado">
+      <h1>¡Todo Tipo De Accesorio Para Tu Bebe, con Todo el Amor que lo Buscas!</h1>
+      <br>
+      <h2>¡Gracias Por Preferirnos, Tu Compra Segura En Un Solo Click!</h2>
+    <div class="contenedor"> 
+      <img id="tiendaBb" src="https://th.bing.com/th/id/R.5a9b0377c6cff60a84a7c7037ccf536f?rik=6M3nWGgCkCQYqg&riu=http%3a%2f%2f3.bp.blogspot.com%2f-_mchLQ48w28%2fTWTYutoaRSI%2fAAAAAAAAFaE%2fdRmcn19izjQ%2fw1200-h630-p-k-no-nu%2fa1.jpg&ehk=spc36g16b37KzyV66C1RitWmAgZkFnjBgGEvZHc8LSU%3d&risl=&pid=ImgRaw&r=0" style="min-height: 300px; height: 380px;">
+      <br>
+    <section id="box-valid">
+      <input id="cardnumber" type="number" pattern="[0-9]" name="caja de texto"
+        placeholder="Inserte n° de tarjeta"/>
+        <br>
+      <button id="miBoton">Validar Tarjeta</button>
+      <br>
+      <p id="mensaje"></p>
+    </section>
+    <section id="box-result">
+      <h1 id="result-valid"></h1>
+      <h2 id="result-michi"></h2>
+      <p id="mensajeUno"></p>
+    </section>
+  </div>
+  </section>
+  </main>
+  <footer>
+    Mariana López &copy; 2023
+  </footer>
+  <script src="index.js" type="module"></script>
+</div>
+</body>
+
 </html>
